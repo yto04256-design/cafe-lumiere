@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f8f5ef;
+    color: #443b32;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: white;
+}
+
+header h1 {
+    font-size: 26px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #443b32;
+    margin-left: 25px;
+}
+
+.hero {
+    height: 400px;
+    background: linear-gradient(135deg, #72543d, #b99a79);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 38px;
+}
+
+section {
+    padding: 70px 10%;
+    text-align: center;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.menu {
+    background-color: white;
+    width: 250px;
+    border-radius: 12px;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+.menu img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #443b32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+
+    nav a {
+        margin: 0 8px;
+    }
+
+    .hero h2 {
+        font-size: 26px;
+    }
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+form button {
+    background-color: #72543d;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}

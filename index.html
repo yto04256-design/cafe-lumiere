@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Lumière</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Cafe Lumière</h1>
+
+        <nav>
+            <a href="#about">ABOUT</a>
+            <a href="#menu">MENU</a>
+            <a href="#access">ACCESS</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>日常に、小さな幸せを。</h2>
+        <p>Enjoy your special moment.</p>
+    </div>
+
+    <main>
+
+        <section id="about">
+            <h2>ABOUT US</h2>
+            <p>ゆったりとした時間を過ごせる小さなカフェです。</p>
+        </section>
+
+        <section id="menu">
+            <h2>OUR MENU</h2>
+
+            <div class="menu-container">
+
+                <div class="menu">
+                    <img src="https://placehold.co/400x250?text=Coffee" alt="コーヒー">
+                    <h3>コーヒー</h3>
+                    <p>500円</p>
+                </div>
+
+                <div class="menu">
+                    <img src="https://placehold.co/400x250?text=Latte" alt="カフェラテ">
+                    <h3>カフェラテ</h3>
+                    <p>600円</p>
+                </div>
+
+                <div class="menu">
+                    <img src="https://placehold.co/400x250?text=Cake" alt="チーズケーキ">
+                    <h3>チーズケーキ</h3>
+                    <p>450円</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="access">
+            <h2>ACCESS</h2>
+            <p>営業時間：10:00〜19:00</p>
+            <p>定休日：水曜日</p>
+        </section>
+
+        <section id="contact">
+            <h2>CONTACT</h2>
+
+            <form id="contactForm">
+
+                <input type="text" id="name" placeholder="お名前">
+
+                <textarea id="messageInput" placeholder="お問い合わせ内容" maxlength="100"></textarea>
+
+                <p id="charCount">0 / 100文字</p>
+
+                <p id="preview"></p>
+
+                <button type="submit">送信する</button>
+
+            </form>
+
+             <p id="result"></p>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Cafe Lumière</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
